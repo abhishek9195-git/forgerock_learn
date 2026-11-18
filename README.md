@@ -1,8 +1,9 @@
 # 1. Query
+
+#### This will return all parameter as response in JSON body.
 ``` 
 /users?_queryFilter=true
 ```
-- This will return all parameter as response in JSON body.
 
 ```
 _queryFilter=filter-expression
