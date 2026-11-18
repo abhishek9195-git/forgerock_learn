@@ -48,3 +48,33 @@ _fields=field[,field...]
 /openidm/system.ldap/account/3483438343984739
 ```
 
+#### Return a list of configuration objects
+```
+/openidm/config
+```
+
+#### Single instance configuration objects are exposed under
+````
+/openidm/config/object-name
+````
+
+#### Workflow objects are exposed under
+````
+/openidm/workflow
+````
+
+#### Schedular services are exposed under
+```
+/openidm/schedular
+```
+
+#### Task scanning mechanism are exposed under
+```
+/openidm/taskscanner
+```
+
+#### Audit logs are exposed under
+```
+/openidm/audit
+```
+
