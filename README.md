@@ -32,7 +32,13 @@ Set System Variable
 %MAVEN_HOME%\bin
 ```
 
-# 5. MYSQL INSTALLATION
+
+
+#5. WINRAR Installation
+- Install winrar
+
+
+# 6. MYSQL INSTALLATION
 
 - Install mysql 5.7.17
 - Set path for bin in system variables
@@ -79,7 +85,7 @@ Shutdown
 ```
 
 
-# 6. OPENIDM INSTALLATION
+# 7. OPENIDM INSTALLATION
 1. Download the .zip file from github.com/OpenIdentityPlatform/OpenIDM/releases
 2. Download file: openidm:7.1.2.zip. (DON'T DOWNLOAD Source code option).
 3. Update file boot.properties
@@ -110,5 +116,3 @@ Stop OpenIDM (done from felix console)
 
 
 
-# WINRAR Installation
-- Install winrar
