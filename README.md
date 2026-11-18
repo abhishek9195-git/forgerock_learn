@@ -96,12 +96,12 @@ C:\u01\app\openidm
 
 Start OpenIDM
 ```
-startup.bat
+> startup.bat
 ```
 
 Stop OpenIDM (done from felix console)
 ```
-shutdown
+> shutdown
 ```
 
 
