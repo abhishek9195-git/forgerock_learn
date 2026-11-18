@@ -1,15 +1,39 @@
 # 1. Install VMWARE
 
+
 # 2. INSTALL WINDOWS
 - Install windows without network configuration
 - Setup the network with NAT
+- ipconfig and Update hosts file
 
-# 3. Install java
+
+# 3. JAVA INSTALLATION 
 - Install jdk inside c:/u01/java27
-- update environmental variables JAVA_HOME
-- Update hosts file
 
-# 4. Mysql installation
+Set User Variable
+```
+JAVA_HOME: C:\U01\app\JAVA27 
+```
+
+Set System Variable
+```
+C:\u01\app\JAVA27
+```
+
+# 4. MAVEN INSTALLATION
+
+Set User Variable
+```
+MAVEN_HOME: c:\u01\app\apache-maven-3.10.1-bin\apache-maven-3.10.1\bin
+```
+
+Set System Variable
+```
+%MAVEN_HOME%\bin
+```
+
+# 5. MYSQL INSTALLATION
+
 - Install mysql 5.7.17
 - Set path for bin in system variables
 
@@ -54,16 +78,28 @@ Shutdown
 > mysqladmin -u root -p shutdown
 ```
 
-# 5. OpenIDM Installation
+
+# 6. OPENIDM INSTALLATION
 1. Download the .zip file from github.com/OpenIdentityPlatform/OpenIDM/releases
-2. Update file boot.properties
+2. Download file: openidm:7.1.2.zip. (DON'T DOWNLOAD Source code option).
+3. Update file boot.properties
+
+Set User Variable
+```
+OPENIDM_HOME: C:\U01\app\openidm 
+```
+
+Set System Variable
+```
+C:\u01\app\openidm
+```
 
 Start OpenIDM
 ```
 startup.bat
 ```
 
-Stop OpenIDM
+Stop OpenIDM (done from felix console)
 ```
 shutdown
 ```
