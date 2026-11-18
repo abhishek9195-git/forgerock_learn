@@ -46,8 +46,28 @@ Run this command and check if installations are properly completed.
 ```
 
 ```
-set global validate_password_number_count=0;
+> set global validate_password_number_count=0;
 ```
+
+Shutdown
+```
+> mysqladmin -u root -p shutdown
+```
+
+# 5. OpenIDM Installation
+1. Download the .zip file from github.com/OpenIdentityPlatform/OpenIDM/releases
+2. Update file boot.properties
+
+Start OpenIDM
+```
+startup.bat
+```
+
+Stop OpenIDM
+```
+shutdown
+```
+
 
 
 
