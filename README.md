@@ -98,6 +98,8 @@ Start OpenIDM
 ```
 > startup.bat
 ```
+USERNAME: openidm-admin
+PASSWORD: openidm-admin
 
 Stop OpenIDM (done from felix console)
 ```
