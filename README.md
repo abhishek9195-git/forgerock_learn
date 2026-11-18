@@ -5,45 +5,46 @@
 /users?_queryFilter=true
 ```
 
+#### This will return entries that match the filter expression.
 ```
 _queryFilter=filter-expression
 ```
-- This will return entries that match the filter expression.
 
-
+#### This specifies a query by it's identifier
 ```
 _queryId=Identifier
 ```
-- This specifies a query by it's identifier
 
 
 
 # 2. Response Formats
+
+#### Format the body of the response
 ```
 _prettyPrint=true
 ```
-- Format the body of the response
 
-
+#### Return only the specified fields in the body of the response.
 ```
 _fields=field[,field...]
 ```
-- Return only the specified fields in the body of the response.
+
 
 
 # 3. URI Scheme
+
+#### The URI scheme for accessing a managed object follows this convention, assuming the IDM web application was deployed at /openidm
 ```
 /openidm/managed/type/id
 ```
-- The URI scheme for accessing a managed object follows this convention, assuming the IDM web application was deployed at /openidm
 
+#### The URI scheme for accessing a system object follows this convention
 ```
 /openidm/system/resource-name/type/id
 ```
-- The URI scheme for accessing a system object follows this convention
 
+#### An example of system object in an LDAP directory might be
 ```
 /openidm/system.ldap/account/3483438343984739
 ```
-- An example of system object in an LDAP directory might be
 
