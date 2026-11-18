@@ -17,7 +17,7 @@ _queryId=Identifier
 
 
 
-# 2. Response Formats
+# 2. Response 
 
 #### Format the body of the response
 ```
