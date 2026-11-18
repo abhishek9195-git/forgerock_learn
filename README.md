@@ -78,3 +78,30 @@ _fields=field[,field...]
 /openidm/audit
 ```
 
+#### Interact with reconciliation engine
+```
+/openidm/recon.
+```
+
+#### Interact with synchronization engine
+```
+/openidm/sync
+```
+
+
+#### Interact with the script service
+```
+/openidm/script
+```
+
+#### Interact with the repository engine
+```
+/openidm/repo
+```
+
+#### Manage internal objects
+```
+/openidm/internal
+```
+
+
