@@ -24,11 +24,15 @@ Step 2. Copy the MySQL configuration files
 - Copy both files and paste it inside openidm/conf
 
 Step 3. Add the MySQL JDBC driver
-   Download mysql-connector-java-8.0.16.jar and place it inside openidm/bundle/
+- Download mysql-connector-java-8.0.16.jar and place it inside openidm/bundle/
 
 Step 4. Locate file openidm/conf/boot/boot.properties and open it. Validate below lines.
+```   
    openidm.repo.host = localhost
    openidm.repo.port = 3306
+```
 
 Step 5. Start OpenIDM
+```   
    openidm > startup.bat
+```
