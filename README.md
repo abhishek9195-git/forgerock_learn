@@ -36,3 +36,5 @@ Step 5. Delete felix-cache and Start OpenIDM
 ```   
    openidm > startup.bat
 ```
+
+Step 6. Download and install sqldeveloper 
