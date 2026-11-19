@@ -37,4 +37,18 @@ Step 5. Delete felix-cache and Start OpenIDM
    openidm > startup.bat
 ```
 
-Step 6. Download and install sqldeveloper 
+Step 6. Download sqldeveloper tool and unzip
+https://www.oracle.com/in/database/sqldeveloper/technologies/download
+```
+sqldeveloper-26.2.0.186.2220-x64.zip
+```
+
+Step 7. Configure MySQL into sqldeveloper tool
+- Double click sqldeveloper
+- Open tools > preperences > Database > Third Party JDBC Driver > Add Entry
+- Select mysql-connector-j-26.10.0.jar folder from C:\u01\openidm\bundle
+- click ok
+- Click + sign in connections
+- Select Database Type as MySQL
+- Choose Database openidm
+- Click Connect
