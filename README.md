@@ -1,9 +1,13 @@
 # 1. Task: Load the OpenIDM schema into mysql database
 
 Step 1. Loading a schema creates a user in openidm.
+
 Step 2. Before loading a schema, we can change the default username/password in  openidm/db/mysql/conf/datasource.jdbc-default.json file.
+
 Step 3. SQL Scripts are available in openidm/db/mysql/scripts/ folder
+
 Step 4. Execute below 6 SQL scripts.
+
 Step 5. Open the command prompt in folder openidm/db/mysql/scripts
 
 ```
