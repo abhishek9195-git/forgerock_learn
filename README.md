@@ -32,7 +32,7 @@ Step 4. Locate file openidm/conf/boot/boot.properties and open it. Validate belo
    openidm.repo.port = 3306
 ```
 
-Step 5. Start OpenIDM
+Step 5. Delete felix-cache and Start OpenIDM
 ```   
    openidm > startup.bat
 ```
