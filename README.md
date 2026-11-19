@@ -1,4 +1,5 @@
-# 1. Task: Load the schema 
+# 1. Task: Load the OpenIDM schema into mysql database
+
 1. Loading a schema creates a user in openidm.
 2. Before loading a schema, we can change the default username/password in openidm/db/mysql/conf/datasource.jdbc-default.json file.
 4. SQL Scripts are available in openidm/db/mysql/scripts/ folder
@@ -7,9 +8,24 @@
 
 ```
 > mysql -u root -p
+mysql> source openidm.sql
+mysql> source activiti.mysql.create.engine.sql
+mysql> source activiti.mysql.create.history.sql
+mysql> source activiti.mysql.create.identity.sql
+mysql> show tables
 ```
 
-```
-mysql> source openidm.sql
-```
+# 2. Task: Switch your repository to MYSQL
+
+1. Locate openidm/conf/repo.orientdb.json and delete.
+   
+2. Copy the MySQL configuration files
+a) Locate datasource.jdbc-default.json and repo.jdbc.json inside folder openidm/db/mysql/conf/. Copy both files and paste it inside openidm/conf
+
+3. Add the MySQL JDBC driver
+a) Download mysql-connector-java-8.0.16.jar and place it inside openidm/bundle/
+
+4. Locate file openidm/conf/boot/boot.properties and open it. Validate below lines.
+openidm.repo.host = localhost
+openidm.repo.port = 3306
 
