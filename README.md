@@ -20,12 +20,13 @@ mysql> show tables
 1. Locate openidm/conf/repo.orientdb.json and delete.
    
 2. Copy the MySQL configuration files
-a) Locate datasource.jdbc-default.json and repo.jdbc.json inside folder openidm/db/mysql/conf/. Copy both files and paste it inside openidm/conf
+   Locate datasource.jdbc-default.json and repo.jdbc.json inside folder openidm/db/mysql/conf/.
+   Copy both files and paste it inside openidm/conf
 
-3. Add the MySQL JDBC driver
-a) Download mysql-connector-java-8.0.16.jar and place it inside openidm/bundle/
+4. Add the MySQL JDBC driver
+   Download mysql-connector-java-8.0.16.jar and place it inside openidm/bundle/
 
-4. Locate file openidm/conf/boot/boot.properties and open it. Validate below lines.
+5. Locate file openidm/conf/boot/boot.properties and open it. Validate below lines.
 openidm.repo.host = localhost
 openidm.repo.port = 3306
 
